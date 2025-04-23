@@ -1,0 +1,23 @@
+.header-div{
+ background-color: black;
+ height:80px;
+ display: flex;
+ flex-direction: row;
+ gap:40px;
+ padding-top: 10px;;
+ 
+}
+.logo_image{
+   height :70px;
+   width:60px;
+   padding-left: 90px;
+}
+input{
+    width:250px;
+    height:30px;
+    padding-left: 190px;;
+}
+h1{
+    color: #cccfd2;
+    padding-left: 50px;
+}

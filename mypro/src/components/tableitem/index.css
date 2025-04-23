@@ -1,0 +1,31 @@
+.tableitem {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .tabledata {
+    margin: 0 auto; /* centers the table */
+    border-radius: 20px;
+    font-size: 20px;
+    border-spacing: 20px; /* adds space between cells */
+  }
+  
+  .tabledata td a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    transition: 0.3s ease;
+  }
+  
+  .tabledata td a:hover {
+    background-color: #c1d3f0;
+  }
+ 
+  .active-btn {
+    border-bottom: 2px solid #0b69ff;
+    color: #3e4c59;
+  }
+  

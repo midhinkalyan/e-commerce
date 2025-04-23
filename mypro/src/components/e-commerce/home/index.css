@@ -1,0 +1,222 @@
+/* Main header container */
+.heade {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #111;
+    color: white;
+  }
+  
+  /* Logo image */
+  .first {
+    height: 60px;
+    width: 70px;
+  }
+  
+  /* Navigation list */
+  .nav_clas {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation links */
+  .nav_clas li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav_clas li a:hover {
+    color: #61dafb; /* Highlight on hover */
+  }
+  
+  /* Responsive tip (optional) */
+  @media (max-width: 768px) {
+    .heade {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .nav_clas {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .carousel .slide img {
+    height: 500px;
+    width:80%;
+  }
+  
+  .carousel .legend {
+    background: rgba(158, 6, 6, 0.5);
+    width:150px;
+    font-size: 16px;
+  }
+  
+  .main{
+    background-color:rgb(4, 12, 4);
+    display: flex;
+    flex-direction: column;
+    gap:20px;}
+
+    .diff-cate {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 30px;
+      padding: 40px 20px;
+      background-color:rgb(227, 224, 224);
+    }
+    .diff-cate a {
+      background-color: rgb(3, 17, 17);
+    }
+    
+    .diff-cate a {
+     
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .diff-cate a:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+    
+    .diff-cate h2 {
+      text-align: center;
+      font-size: 1.5rem;
+      margin: 10px 0;
+      font-weight: 600;
+      color: #d3caca;
+    }
+    
+    .diff-cate img {
+      width: 400px;
+      height: 300px;
+      border-radius: 10px;
+   
+    }
+    .vinta{
+      background-color: #d3caca;
+      padding-bottom: 20px;
+      display: flex;
+      flex-direction: row;
+      
+    }
+    .vinta p{
+      text-align: center;
+      font-weight: 700;
+      padding-left:150px;
+      padding-top: 150px;
+    }
+   .vinta img{
+    height:300px;
+    width :650px;
+    padding-left:220px;
+    padding-top: 30px;
+   }
+   .footer {
+    background-color: #111;
+    color: #fff;
+    padding: 30px 20px;
+    margin-top: 40px;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .footer-logo img {
+    height: 50px;
+    width: auto;
+  }
+  
+  .footer-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .footer-links li a:hover {
+    color: #61dafb;
+  }
+  .discount-banner {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #f1c40f; /* Yellow banner */
+    padding: 10px 0;
+    position: relative;
+  }
+  
+  .discount-banner p {
+    display: inline-block;
+    animation: moveText 15s linear infinite;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+  }
+  
+  @keyframes moveText {
+    0% {
+      transform: translateX(-0%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  .discount-banner2 {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #0c0c0a; /* Yellow banner */
+    padding: 10px 0;
+    position: relative;
+  }
+  
+  .discount-banner2 p {
+    display: inline-block;
+    animation: moveText 15s linear infinite;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ddcaca;
+    margin: 0;
+  }
+  
+  @keyframes moveText {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  

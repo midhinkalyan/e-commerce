@@ -1,0 +1,54 @@
+.offer-zone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* optional: centers items nicely */
+    gap: 20px; /* optional: adds space between items */
+    padding: 20px;
+  }
+  .offer-page{
+    background-color: rgb(152, 162, 220);
+  }
+.product_image {
+    width: 150px;
+    height: 150px;
+    
+    border-radius: 10px;
+  }
+  
+  .product-box {
+    width: 400px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f9adc4;
+  }
+  
+  .product-box:hover {
+    transform: scale(1.05); /* slight zoom on hover */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* deeper shadow on hover */
+    background-color: #f9f9f9; /* optional: light background change */
+  }
+  .cart_image{
+    height:30px;
+    width :20px;
+  }
+  .cart_image:hover {
+    transform: scale(1.05); /* slight zoom on hover */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* deeper shadow on hover */
+    background-color: #f9f9f9; /* optional: light background change */
+  }
+  .added-msg {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+    animation: fadeInOut 2s ease-in-out;
+  }
+  
+  @keyframes fadeInOut {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
